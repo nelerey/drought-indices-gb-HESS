@@ -1,0 +1,17 @@
+name: reyniers2022drought
+channels:
+  - defaults
+  - conda-forge/label/renamed
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - pandas
+  - xarray
+  - matplotlib
+  - jupyter
+  - netcdf4
+  - nc-time-axis
+  - seaborn
+  - dask
+  - jupyterlab
+prefix: ~/anaconda3/envs/reyniers2022drought
